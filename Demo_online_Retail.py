@@ -6,6 +6,8 @@ import seaborn as sns
 import plotly.offline as pyoff
 import plotly.graph_objects as go
 
+#link file: https://drive.google.com/file/d/150ngSGpfHZsPgC2LpJPwYfLgJoCIODa0/view
+
 df_retail = pd.read_csv('OnlineRetail.csv', encoding='unicode_escape')
 df_retail.info()
 df_retail['InvoiceDate'] = pd.to_datetime(df_retail['InvoiceDate'])
